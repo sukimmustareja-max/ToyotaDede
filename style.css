@@ -165,3 +165,31 @@ font-size:22px;
 }
 
 }
+.navbar{
+background:#111;
+color:#fff;
+padding:15px 25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+z-index:999;
+}
+
+.navbar ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.navbar a{
+color:#fff;
+text-decoration:none;
+font-weight:bold;
+}
+
+.logo h2{
+color:#fff;
+font-size:22px;
+}
